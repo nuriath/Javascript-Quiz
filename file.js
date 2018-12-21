@@ -19,7 +19,10 @@ function mytest()
     if(q4=="Instances inherit from classes"){
         marks +=3;
     }
-    alert("your score is :"+marks)
+    $(".Output").show();
+    $("#display").text("your score is:"+marks);
+
+    event.preventDefault();
 
 
 

@@ -1,4 +1,6 @@
 # Javascript-Quiz
-This is a quiz about javascript
+This is a javascript quiz board
 
 Mwangaza Nuriath
+
+
