@@ -11,19 +11,24 @@ Moringa school.
 Mwanagaza Nuriath (mnuriath28@gmail.com)
 
 
-##User
+##User set up
 Google chrome
 visual code studio
-
-
-
-
+Bootstrap
+jquery
 ##License
-This project is licensed under the MIT License - see the LICENSE.md fil
+This project is licensed under the MIT License 
+
+### link to live site on github page
+https://github.com/nuriath/Javascript-Quiz
+
 
 ##Acknowledgments
 Queen Uwitonze
 Joyeuse tuyishime
 Roger Uwayezu
+
+## License and copyright 
+(c) Mwangaza Nuriath License MIT , 2018.
 
 
