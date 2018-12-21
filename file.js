@@ -1,11 +1,14 @@
-var optradio = $("input:radio[name=optradio]:checked").val();
-function mytest()
-{
-    var q1=document.forms["myform"]["answer1"].value;
-    var q2=document.forms["myform"]["answer2"].value;
-    var q3=document.forms["myform"]["answer3"].value;
-    var q4=document.forms["myform"]["answer4"].value;
-    var marks=0;
+$(document).ready(function()){
+    $("blanks form").submit(function(event)){
+        var q1 = $("input:radio[name=answer1]:checked").val();
+        var q2 = $("input:radio[name=answer2]:checked").val();
+        var q3 = $("input:radio[name=answer3]:checked").val();
+        var q4 = $("input:radio[name=answer4]:checked").val();
+        var q5 = $("input:radio[name=answer5]:checked").val();
+
+        var marks=0;
+    }
+}
 
     if(q1=="language"){
         marks +=2;
@@ -19,10 +22,8 @@ function mytest()
     if(q4=="Instances inherit from classes"){
         marks +=3;
     }
-    $(".Output").show();
-    $("#display").text("your score is:"+marks);
-
-    event.preventDefault();
+    $(.Output").show();
+    $(#display")
 
 
 
