@@ -8,8 +8,9 @@ Mwangaza Nuriath
 Mwanagaza Nuriath (mnuriath28@gmail.com)
 
 
-##Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
+##User
+Google chrome
+visual code studio
 
 
 
