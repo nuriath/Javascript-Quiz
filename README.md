@@ -1,5 +1,6 @@
 # Javascript-Quiz
-This is a javascript quiz board
+## Description
+This is a javascript quiz board which a user mast select an answer a to be correct
 
 ##Authors
 Mwangaza Nuriath

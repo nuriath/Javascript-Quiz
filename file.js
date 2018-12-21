@@ -35,10 +35,10 @@ event.preventDefault();
 $(document).ready(function (){
     $('#blanks form').submit(function(event){
     var marks=0;
-      var blanks=["answer1", "answer2", "answer3","answer4"]
+    var blanks=["answer1", "answer2", "answer3","answer4"]
         blanks.forEach(function(blank) {
             var userInput = $("input:radio[name=" + blank + "]:checked" ).val();
-                    if(userInput=="B"){
+                    if(userInput=="a"){
                     marks = marks+10;
                     }
                 })
