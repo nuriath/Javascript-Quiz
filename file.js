@@ -13,6 +13,13 @@ function mytest()
     if(q2=="Interaction"){
         marks +=2;
     }
+    if(q3=="console.log"){
+        marks +=3;
+    }
+    if(q4=="Instances inherit from classes"){
+        marks +=3;
+    }
+    alert("your score is :"+marks)
 
 
 
