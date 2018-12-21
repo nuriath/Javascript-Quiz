@@ -1,5 +1,6 @@
-$(document).ready(function()){
-    $("blanks form").submit(function(event)){
+$(document).ready(function(){
+
+    $("blanks form").submit(function(event){
         var q1 = $("input:radio[name=answer1]:checked").val();
         var q2 = $("input:radio[name=answer2]:checked").val();
         var q3 = $("input:radio[name=answer3]:checked").val();
@@ -7,8 +8,6 @@ $(document).ready(function()){
         var q5 = $("input:radio[name=answer5]:checked").val();
 
         var marks=0;
-    }
-}
 
     if(q1=="language"){
         marks +=2;
@@ -22,9 +21,14 @@ $(document).ready(function()){
     if(q4=="Instances inherit from classes"){
         marks +=3;
     }
-    $(.Output").show();
-    $(#display")
+    $(".Output").show();
+    $("#display").text("Your score is: " + marks);
+
+event.preventDefault();
+
+
+})
+});
 
 
 
-}
