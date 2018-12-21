@@ -2,8 +2,10 @@
 ## Description
 This is a javascript quiz board which a user mast select an answer a to be correct
 
-##Authors
+##Authors information
 Mwangaza Nuriath
+mnuriath28@gmail.com
+Moringa school.
 
 ##Contributing
 Mwanagaza Nuriath (mnuriath28@gmail.com)
